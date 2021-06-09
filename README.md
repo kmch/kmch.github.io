@@ -1,1 +1,1 @@
-# kmch.github.io
+# Interactive map of volcano tomography studies
