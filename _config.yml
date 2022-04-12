@@ -11,15 +11,15 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Kajetan Chrapkiewicz # add your name
 author-img: kajetan.jpg # add your photo
-about-author: PhD in Earth science (computational geophysics)
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+about-author: Computational geophysicist with expertise in solving complex inverse problems for seismic imaging; PhD in Earth Science @ Imperial College London
+#social-twitter: # add your Twitter handle
+#social-facebook: # add your Facebook handle
 social-github: kmch # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+#social-linkedin: # add your Linkedin handle
+social-email: kajetan.chrapkiewicz@gmail.com # add your Email address
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier:  # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
