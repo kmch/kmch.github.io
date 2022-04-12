@@ -1,1 +1,1 @@
-Sitemap: /kajetan/sitemap.xml
+Sitemap: http://localhost:4000/kajetan/sitemap.xml
