@@ -22,6 +22,8 @@ social-email: kajetan.chrapkiewicz@gmail.com # add your Email address
 # Tracker
 #analytics: # Google Analytics
 
+future: true # show posts that have future date
+
 # Build Settings
 markdown: kramdown
 plugins:
