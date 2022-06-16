@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to set up a website in 5 minutes
-date: 2022-06-10 00:00:00 +0200
+date: 2022-06-10 12:00:00 +0200
 description: 
 img: github-pages.jpg
 tags: [IT, web development] # add tag
@@ -21,4 +21,4 @@ tags: [IT, web development] # add tag
 - then, after every change you want to see applied in the website, just build without setting up a new server
 > jekyll b
 - refresh the website in your browser.
- 
+  
