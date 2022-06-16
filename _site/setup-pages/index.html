@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>How to set up a website in 5 minutes - Kajetan's website</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Kajetan's website" property="og:site_name">
+  
+    <meta content="How to set up a website in 5 minutes" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="This is my personal website.
+" property="og:description">
+  
+  
+    <meta content="https://kmch.github.io/setup-pages/" property="og:url">
+  
+  
+    <meta content="2022-06-10T12:00:00+02:00" property="article:published_time">
+    <meta content="https://kmch.github.io/about/" property="article:author">
+  
+  
+    <meta content="https://kmch.github.io/assets/img/github-pages.jpg" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="IT" property="article:tag">
+    
+    <meta content="web development" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="How to set up a website in 5 minutes">
+  
+  
+    <meta name="twitter:url" content="https://kmch.github.io/setup-pages/">
+  
+  
+    <meta name="twitter:description" content="This is my personal website.
+">
+  
+  
+    <meta name="twitter:image:src" content="https://kmch.github.io/assets/img/github-pages.jpg">
+  
+
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/kajetan.jpg" alt="Kajetan Chrapkiewicz"></a>
+      </div>
+      <div class="author-name">Kajetan Chrapkiewicz</div>
+      <p>PhD in Earth Science @ Imperial College London... computational geophysicist... solver of complex inverse problems for seismic imaging... open-source coder.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="github"><a href="http://github.com/kmch" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:kajetan.chrapkiewicz@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2022 &copy; Kajetan Chrapkiewicz</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/github-pages.jpg alt="How to set up a website in 5 minutes">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">How to set up a website in 5 minutes</h1>
+        <div class="page-date"><span>2022, Jun 10&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <ol>
+  <li>
+    <p>Clone a Github repo with one of the free Jekyll templates. For example, this website uses <a href="https://jekyllthemes.io/theme/flexible-jekyll">flexible-jekyll</a> theme.  or</p>
+  </li>
+  <li>Publish on Github Pages following the instructions <a href="https://pages.github.com/">here</a>. In short:
+    <ul>
+      <li>if your repo adress is https://github.com/user/repo, then your website will be published at https://user.github.io/repo,</li>
+      <li>however, you can rename your repo to user.github.io which will publish your website at https://user.github.io without any subdomain,</li>
+      <li>make sure that  the content of your Jekyll config file _config.yml matches the address of the Github repo:
+        <blockquote>
+          <p>baseurl: “” 
+url: “https://user.github.io</p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+  <li>If you want to build the website locally to preview the changes before pushing them to the public repo:
+    <ul>
+      <li>first set up a server and click on the url to open it in a browser:
+        <blockquote>
+          <p>jekyll s</p>
+        </blockquote>
+      </li>
+      <li>then, after every change you want to see applied in the website, just build without setting up a new server
+        <blockquote>
+          <p>jekyll b</p>
+        </blockquote>
+      </li>
+      <li>refresh the website in your browser.</li>
+    </ul>
+  </li>
+</ol>
+
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=How to set up a website in 5 minutes&url=https://kmch.github.io/setup-pages/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=https://kmch.github.io/setup-pages/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=https://kmch.github.io/setup-pages/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#IT" class="tag">&#35; IT</a>
+          
+            <a href="/tags#web development" class="tag">&#35; web development</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+I"�<ol>
+  <li>
+    <p>Clone a Github repo with one of the free Jekyll templates. For example, this website uses <a href="https://jekyllthemes.io/theme/flexible-jekyll">flexible-jekyll</a> theme.  or</p>
+  </li>
+  <li>Publish on Github Pages following the instructions <a href="https://pages.github.com/">here</a>. In short:
+    <ul>
+      <li>if your repo adress is https://github.com/user/repo, then your website will be published at https://user.github.io/repo,</li>
+      <li>however, you can rename your repo to user.github.io which will publish your website at https://user.github.io without any subdomain,</li>
+      <li>make sure that  the content of your Jekyll config file _config.yml matches the address of the Github repo:
+        <blockquote>
+          <p>baseurl: “” 
+url: “https://user.github.io</p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+  <li>If you want to build the website locally to preview the changes before pushing them to the public repo:
+    <ul>
+      <li>first set up a server and click on the url to open it in a browser:
+        <blockquote>
+          <p>jekyll s</p>
+        </blockquote>
+      </li>
+      <li>then, after every change you want to see applied in the website, just build without setting up a new server
+        <blockquote>
+          <p>jekyll b</p>
+        </blockquote>
+      </li>
+      <li>refresh the website in your browser.</li>
+    </ul>
+  </li>
+</ol>
+
+:ET
