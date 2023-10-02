@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to set up a website in 5 minutes
-date: 2022-06-10 12:00:00 +0200
+date: 2010-01-01 12:00:00 +0200
 description: 
 img: github-pages.jpg
 tags: [IT, web development] # add tag
