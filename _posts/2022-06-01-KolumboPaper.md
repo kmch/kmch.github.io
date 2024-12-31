@@ -18,7 +18,7 @@ For more background, including all the technical details of data processing and 
 
 For a bigger picture and a discussion of the wavefront-healing phenomenon, you may want to read a comprehensive review of seismic-imaging studies of volcanoes worldwide:
 
-[Paulatto M., Hooft E. E. Chrapkiewicz K., Heath B. A., Toomey, D. R. and Morgan, J. V. Advances in seismic imaging of magma and crystal mush, Frontiers in Earth Science](https://doi.org/10.3389/feart.2022.970131). I have written about it already [here]({% post_url 2022-12-01-FrontiersReview %}).
+[Paulatto M., Hooft E. E. Chrapkiewicz K., Heath B. A., Toomey, D. R. and Morgan, J. V. Advances in seismic imaging of magma and crystal mush, Frontiers in Earth Science](https://doi.org/10.3389/feart.2022.970131). I have written about it already [here]({% post_url 2022-06-16-VolcanoTomo %}).
 
 
 
