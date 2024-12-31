@@ -6,7 +6,7 @@ description:
 img: beta-decay.png
 tags: [nuclear physics, CERN, data analysis] # add tag
 ---
-For my BSc in nuclear physics, I analysed experimental data from REX-ISOLDE facility at CERN. We investigated a rare 𝛽-decay channel of the exotic 6He isotope into the 𝛼+𝑑 continuum. Studying this decay channel allows us to better constrain the peculiar neutron halo of the 6He nucleus.
+For my BSc in nuclear physics, I helped analyse experimental data from REX-ISOLDE facility at CERN. We investigated a rare 𝛽-decay channel of the exotic 6He isotope into the 𝛼+𝑑 continuum. Studying this decay channel allows us to better constrain the peculiar neutron halo of the 6He nucleus.
 
 The above graphic from our [paper](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.92.014316) presents a CCD image from the optical time-projection chamber (OTPC) [^1].
 
