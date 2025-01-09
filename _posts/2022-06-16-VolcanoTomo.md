@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Advances in seismic imaging of magma
-date: 2022-06-16 12:00:00 +0200
+date: 2022-06-15 12:00:00 +0200
 description: 
 img: VolcanoTomo.png
 tags: [Earth science, volcanology, seismic tomography, high-resolution imaging, full-waveform inversion] # add tag
